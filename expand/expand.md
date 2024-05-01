@@ -1,0 +1,17 @@
+1. Some JavaScript developers believe that most of the issues with JavaScript stem from its asynchronous nature, its loose typing, and the web platform it runs on. For each of the three reasons listed, explain in your own words why a developer might believe that it is a pain point.
+    - The asynchronous nature of javascript can be an issue when things become more complex. As calls are being nested deeper it becomes hard to traceback things and find the root to issues.
+    - loose typing can become an issue since there can be bugs that appear that usually wouldn't be a problem if the typing of variable were strict. Variables may also become lost due to the nature of loose typing.
+    - As web platforms and the languages being used on those platforms develop there becomes an increasing amount of incompatability between differing versions of code and browsers.
+
+2. Related to the first question, why do you believe that the developer(s) who created JavaScript made it loosely typed? Why do you think they added asynchronous features?
+    - I think they made javascript loosely typed because the nature of user inputs are that they tend not to follow the parameters that are asked for so this could lead to many problems if things are strictly typed. If things are loosely typed it is more compatible with whatever the user may input.
+    - I think asynchronous features were added because again the target of the web are users. Things don't happen in a set order when dealing with users so there needs to be a way to move fluidly with the inputs of the user.
+
+3. What are the key differences between a compiled language and an interpreted one? Which one is JavaScript? What are the benefits & drawbacks of JavaScript being made that way?
+    - Compiled languages process everything when the code is run while a interpreted one processes things as they appear. Javascript is an interpreted language. The benefits of an interpreted language is that things are very dynamic while the drawbacks are that if the stack tree has not been made yet there may be strange outputs that appear.
+
+4. The professor believes that, though sometimes misused, JavaScript frameworks are incredibly powerful tools that can help teams work more efficiently and effectively. Given that, why do you believe he is focusing more on vanilla JavaScript for this course? What are the benefits of mastering vanilla JS first? What are the drawbacks of not learning a framework?
+    - Although when used correctly, frameworks are very powerful but it skips over the basics of where the framework stems from. When you master the basics which is vanilla javascript it becomes a strong foundation to branch out into any of the frameworks easier and more efficiently. A drawback of not learning a framework may be that we have to do things in a longer more tedious nature when a framework may already have things in place for those tasks. Since we do not learn these frameworks we also do not become aware of the strengths and weaknesses of each framework which could be helpful later down the line when choosing what to use.
+
+5. Explain, in your own words, how you think this lab relates to your project. How might you be able to use this information in your own project?
+    - If html and css are things that the user will see, javascript is the "how" everything works. Javascript is the connection between what the user sees and what the user expects to happen. I will be able to use this information to create efficient ways for the frontend to interact with users expectations.
